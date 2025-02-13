@@ -132,27 +132,138 @@
         </section>
 
         <!-- Categories -->
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-6">Categories</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Electronics" class="w-full h-24 object-cover rounded-lg mb-4">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sludinājumu Portāls</title>
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Alpine.js for Interactivity -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body class="font-sans antialiased bg-gray-50 dark:bg-gray-900">
+    <!-- Header and Search Bar (unchanged) -->
+    <!-- ... -->
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8">
+<!-- Categories Slider -->
+<section class="mb-12">
+    <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-6">Categories</h2>
+
+    <!-- Swiper Container -->
+    <div class="swiper-container relative">
+        <div class="swiper-wrapper">
+            <!-- Category 1 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Electronics" class="w-full h-32 object-cover rounded-lg mb-4">
                     <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Electronics</h3>
                 </a>
-                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Vehicles" class="w-full h-24 object-cover rounded-lg mb-4">
+            </div>
+
+            <!-- Category 2 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Vehicles" class="w-full h-32 object-cover rounded-lg mb-4">
                     <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Vehicles</h3>
                 </a>
-                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Real Estate" class="w-full h-24 object-cover rounded-lg mb-4">
+            </div>
+
+            <!-- Category 3 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Real Estate" class="w-full h-32 object-cover rounded-lg mb-4">
                     <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Real Estate</h3>
                 </a>
-                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am9ic3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Jobs" class="w-full h-24 object-cover rounded-lg mb-4">
+            </div>
+
+            <!-- Category 4 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am9ic3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Jobs" class="w-full h-32 object-cover rounded-lg mb-4">
                     <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Jobs</h3>
                 </a>
             </div>
-        </section>
+
+            <!-- Category 5 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Furniture" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Furniture</h3>
+                </a>
+            </div>
+
+            <!-- Category 6 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Headphones" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Headphones</h3>
+                </a>
+            </div>
+
+            <!-- Category 7 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Watches" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Watches</h3>
+                </a>
+            </div>
+
+            <!-- Category 8 -->
+            <div class="swiper-slide">
+                <a href="#" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors duration-300 block">
+                    <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Laptops" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Laptops</h3>
+                </a>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+        <!-- Featured Ads and Recent Listings (unchanged) -->
+        <!-- ... -->
+    </main>
+
+    <!-- Footer (unchanged) -->
+    <!-- ... -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 4,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
 
         <!-- Recent Listings -->
         <section>
