@@ -3,17 +3,35 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+use Illuminate\Support\Facades\Route;
+
 
 class TestController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        return "Nigger";
+        return "hello";
     }
 
+
+
+    public function register(){
+        return 'register page';  // Assuming you have a 'account/register.blade.php' view
+    }
+    
+    public function login(){
+        return 'login page';  // Assuming you have a 'account/login.blade.php' view
+    }
+    
+    public function product()
+    {
+        $products = ['name' => 'iPhone', 'price' => 799];
+        return view('home', compact('products'));  // Ensure 'home.blade.php' can handle $products
+    }
+    
+    
     /**
      * Show the form for creating a new resource.
      */
