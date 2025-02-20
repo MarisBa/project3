@@ -258,6 +258,81 @@
             </div>
         </section>
     </main>
+    <!-- Most Recent Ads Section -->
+<section class="container mx-auto px-6 py-8">
+    <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-6">Most Recent Ads</h2>
+    <div class="space-y-6">
+        <!-- Ad 1 -->
+        <a href="ad3.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div class="flex flex-col md:flex-row">
+        <img src="https://images.unsplash.com/photo-1508946621775-9d59b75e074e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Golden Retriever" class="w-full md:w-48 h-48 object-cover">
+        <div class="p-4 flex-1">
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Golden Retriever Puppy</h3>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">
+                Purebred Golden Retriever, 10 weeks old, vaccinated & microchipped. Friendly, playful, and great with families. Ready for a new home!
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+                <span class="text-lg font-bold text-gray-800 dark:text-white">€800</span>
+                <span class="text-sm text-gray-600 dark:text-gray-400">21.05.2023</span>
+            </div>
+        </div>
+    </div>
+</a>
+
+        <!-- Ad 2 -->
+        <a href="ad2.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div class="flex flex-col md:flex-row">
+        <img src="https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="BMW M4" class="w-full md:w-48 h-48 object-cover">
+        <div class="p-4 flex-1">
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">2014 BMW M4</h3>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">
+                3.0L Twin-Turbo Inline-6, 425 HP, 6-speed manual / 7-speed DCT, RWD, 0-60 mph in ~4 sec. Well-maintained, great condition.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+                <span class="text-lg font-bold text-gray-800 dark:text-white">€45,000</span>
+                <span class="text-sm text-gray-600 dark:text-gray-400">21.05.2023</span>
+            </div>
+        </div>
+    </div>
+</a>
+
+        <!-- Ad 3 -->
+        <a href="ad4.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div class="flex flex-col md:flex-row">
+        <img src="https://nextwheelstyres.com/wp-content/uploads/2024/07/57-797.jpg" alt="BMW Wheels" class="w-full md:w-48 h-48 object-cover">
+        <div class="p-4 flex-1">
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">BMW 19" Alloy Wheels</h3>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">
+                Set of 4 genuine BMW M-Sport 19" alloy wheels. Excellent condition, no major scratches. Fits multiple BMW models. 
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+                <span class="text-lg font-bold text-gray-800 dark:text-white">€1,200</span>
+                <span class="text-sm text-gray-600 dark:text-gray-400">21.05.2023</span>
+            </div>
+        </div>
+    </div>
+</a>
+
+
+        <!-- Ad 4 -->
+        <a href="ad5.html" class="block bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div class="flex flex-col md:flex-row">
+        <img src="https://images.unsplash.com/photo-1695578130391-929bdfff85d8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smartphone" class="w-full md:w-48 h-48 object-cover">
+        <div class="p-4 flex-1">
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">iPhone 13 Pro - 256GB</h3>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">
+                iPhone 13 Pro in excellent condition. 256GB storage, 6.1" Super Retina XDR display, A15 Bionic chip. No scratches, fully functional.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+                <span class="text-lg font-bold text-gray-800 dark:text-white">€850</span>
+                <span class="text-sm text-gray-600 dark:text-gray-400">21.05.2023</span>
+            </div>
+        </div>
+    </div>
+</a>
+
+    </div>
+</section>
 
     <footer class="bg-white dark:bg-gray-800 shadow mt-12">
         <div class="container mx-auto px-6 py-8">
@@ -269,7 +344,7 @@
                 <div>
                     <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600">Home</a></li>
+                        <li><a href="index.html" class="text-gray-600 dark:text-gray-400 hover:text-blue-600">Home</a></li>
                         <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600">Categories</a></li>
                         <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600">Post Ad</a></li>
                         <li><a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600">Login</a></li>
