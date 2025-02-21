@@ -7,4 +7,4 @@ login un registration windows, bet pagaidām kaut kas nestrādā.
 /workspaces/project3/resources/views/auth/register.blade.php
 
 Lai palaistu codespace vajag ievadīt komandas:
-composer install
+php artisan serve
