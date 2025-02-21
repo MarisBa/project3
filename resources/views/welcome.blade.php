@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MM Reklama - Ad Site</title>
+    <title>sludinajumuPortals</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </head>
 <body class="font-sans antialiased bg-gray-50 dark:bg-gray-900">
-    <header class="bg-white shadow dark:bg-gray-800">
-        <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-            <div class="flex items-center">
-                <svg class="h-8 w-auto text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2L2 22H22L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <span class="ml-2 text-xl font-semibold text-gray-800 dark:text-white">Sludinājumu protāls</span>
-            </div>
-            <nav class="flex items-center space-x-4">
-                <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Home</a>
-                <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Categories</a>
-                <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Post Ad</a>
-                <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Login</a>
-                <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Register</a>
-            </nav>
+<header class="bg-white shadow dark:bg-gray-800">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center">
+            <svg class="h-8 w-auto text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 22H22L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="ml-2 text-xl font-semibold text-gray-800 dark:text-white">Sludinājumu protāls</span>
         </div>
-    </header>
+        <nav class="flex items-center space-x-4">
+            <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Home</a>
+            <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Categories</a>
+            <a href="#" class="text-gray-800 dark:text-white hover:text-blue-600">Post Ad</a>
+            <div class="flex items-center space-x-4">
+                <!-- Login Button -->
+                <a href="/login" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                Login
+            </a>
+            <a href="/register" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition duration-300">
+                Register
+            </a>
+
+            </div>
+        </nav>
+    </div>
+</header>
 
     <div class="container mx-auto px-6 py-8">
         <form class="flex items-center">
